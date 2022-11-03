@@ -1,0 +1,62 @@
+1) ClassNotFoundException Vs NoClassDefFoundError in Java
+https://www.geeksforgeeks.org/classnotfoundexception-vs-noclassdeffounderror-java/#:~:text=As%20the%20name%20suggests%2C%20ClassNotFoundException,is%20not%20present%20at%20runtime.
+
+2) Exception Hierarchy
+https://www.geeksforgeeks.org/exceptions-in-java/
+
+3)
+public class Programs {
+
+	public static void main(String[] args) {
+		String s1=new String("java");
+		String s2=new String("java");
+		System.out.println(s1.equals(s2)); // true
+		System.out.println(s1.hashCode()==s2.hashCode()); // true
+	}
+
+}
+
+4)
+	public int tryCatch() {
+		try {
+			return 1;
+		}catch(Exception e) {
+			return 2;
+		}finally {
+			return 3;
+		}
+		//Below is the unreachable code
+//		try {
+//			return 4;
+//		}catch(Exception e) {
+//			return 5;
+//		}finally {
+//			return 6;
+//		}
+//		return 4;
+	}
+  
+  5) difference between extends Thread and implements Runnable :-
+https://devm.io/java/learn-from-brilliant-java-programmers-to-create-a-thread-with-implements-runnable-vs-extends-thread-124627
+
+6) HashMap :- It uses an array and LinkedList data structure internally for storing Key and Value.
+
+7) https://www.baeldung.com/spring-transactional-propagation-isolation
+
+8) Threads are scheduled and allocated CPU by thread scheduler which you cannot control but you can impose such ordering by using Thread.join() method.
+
+9) Make collection read-only :-
+numbers = Collections.unmodifiableList(numbers);
+Java has different methods for different Collection type like unmodifiableCollection(), unmodifiableMap(), ununmodifiableSet() e.t.c
+geeksforgeeks.org/how-to-make-a-collection-read-only-in-java/
+
+10) https://www.theserverside.com/post/The-benefits-and-drawbacks-of-Javas-fail-safe-iterators
+
+11) save and persists in hibernate :
+https://javarevisited.blogspot.com/2012/09/difference-hibernate-save-vs-persist-and-saveOrUpdate.html#axzz7jZCRUnxu
+
+12) Java memory management :
+https://www.geeksforgeeks.org/java-memory-management/
+
+13) Prepared Statement and Callable Statement :
+https://www.geeksforgeeks.org/difference-between-preparedstatement-and-callablestatement/
